@@ -12,9 +12,6 @@ DEVICE_PATH := device/samsung/dm3q
 # Assert
 TARGET_OTA_ASSERT_DEVICE := dm3q
 
-# Display
-TARGET_SCREEN_DENSITY := 450
-
 # Kernel
 TARGET_KERNEL_CONFIG := dm3q_defconfig
 
