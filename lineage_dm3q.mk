@@ -27,3 +27,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=samsung/dm3qxxx/dm3q:15/AP3A.240905.015.A2/S918BXXU8DYD9:user/release-keys \
     DeviceProduct=dm3qxxx \
     SystemName=dm3qxxx
+
+# Matrixx flags
+WITH_GMS := true
+TARGET_SUPPORTS_WALLEFFECT := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_STOCK_AICORE := true
