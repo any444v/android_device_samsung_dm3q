@@ -27,3 +27,20 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=samsung/dm3qxxx/dm3q:15/AP3A.240905.015.A2/S918BXXS8DYDB:user/release-keys \
     DeviceProduct=dm3qxxx \
     SystemName=dm3qxxx
+
+# Axion Flags
+
+# Maintainer name (use "_" for spaces, e.g., "rmp_22" → "rmp 22" in UI)
+AXION_MAINTAINER := Machad3x
+
+# Processor name (use "_" for spaces)
+AXION_PROCESSOR := Snapdragon_8_Gen_2
+
+# Define rear camera specs (multiple sensors supported)
+AXION_CAMERA_REAR_INFO := 200,10,10,12
+
+# Define front camera specs
+AXION_CAMERA_FRONT_INFO := 12
+
+# Enable Blur
+TARGET_ENABLE_BLUR := true
