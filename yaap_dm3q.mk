@@ -11,10 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from the device configuration.
 $(call inherit-product, device/samsung/dm3q/device.mk)
 
-# Inherit from the AOSP configuration.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit from the YAAP configuration.
+$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_dm3q
+PRODUCT_NAME := yaap_dm3q
 PRODUCT_DEVICE := dm3q
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-S918B
