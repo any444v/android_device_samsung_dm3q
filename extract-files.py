@@ -21,6 +21,7 @@ namespace_imports = [
     'vendor/samsung/sm8550-common',
 ]
 
+
 def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
     return f'{lib}_{partition}' if partition == 'vendor' else None
 
@@ -41,5 +42,7 @@ module = ExtractUtilsModule(
 )
 
 if __name__ == '__main__':
-    utils = ExtractUtils.device_with_common(module, 'sm8550-common', module.vendor)
+    utils = ExtractUtils.device_with_common(
+        module, 'sm8550-common', module.vendor
+    )
     utils.run()
